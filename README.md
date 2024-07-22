@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm vasu</h1>
 <h3 align="center">A passionate full-stack python developer from India</h3>
 
-- 💬 Ask me about **django , pytho , javascript , react js ,html , css ,bootstarp , json , jwt , css , github.**
+- 💬 Ask me about **django , python , javascript , react js ,html , css ,bootstrap , json , jwt , css , github.**
 
 - 📫 How to reach me **vasuvirani54@gmail.com**
 
