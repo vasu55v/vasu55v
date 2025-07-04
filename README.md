@@ -1,484 +1,205 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vasu Virani - Futuristic Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+# <div align="center">🚀 Hey there, I'm **Vasu Virani** 🚀</div>
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
-            color: #ffffff;
-            min-height: 100vh;
-            overflow-x: hidden;
-        }
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00FFFF&center=true&vCenter=true&width=600&lines=Full-Stack+Python+Developer;Django+%7C+React+%7C+PostgreSQL;Always+Learning+New+Technologies;Open+Source+Enthusiast" alt="Typing SVG" />
+</div>
 
-        /* Animated background */
-        .bg-animation {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: -1;
-        }
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
+</div>
 
-        .bg-animation::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle at 20% 50%, rgba(0, 255, 255, 0.1) 0%, transparent 50%),
-                        radial-gradient(circle at 80% 20%, rgba(255, 0, 255, 0.1) 0%, transparent 50%),
-                        radial-gradient(circle at 40% 80%, rgba(0, 255, 127, 0.1) 0%, transparent 50%);
-            animation: bgPulse 8s ease-in-out infinite alternate;
-        }
+---
 
-        @keyframes bgPulse {
-            0% { opacity: 0.3; }
-            100% { opacity: 0.8; }
-        }
+## 🌟 **About Me**
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-            position: relative;
-            z-index: 1;
-        }
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
-        /* Header */
-        .header {
-            text-align: center;
-            margin-bottom: 3rem;
-            animation: slideDown 1s ease-out;
-        }
+- 🔭 **Currently Working On:** Product price comparison platform for Zepto, Blinkit, and Swiggy
+- 🌱 **Learning:** Celery, Redis, PostgreSQL, FastAPI, Selenium/Playwright
+- 💬 **Ask Me About:** Django, Python, React, JWT, PostgreSQL, REST APIs, Web scraping
+- 🤝 **Open To:** Collaborate on open-source or full-stack projects
+- 📫 **Reach Me:** vasuvirani55@gmail.com
+- ⚡ **Fun Fact:** I turn coffee into code! ☕️→💻
 
-        .header h1 {
-            font-size: 3.5rem;
-            font-weight: 700;
-            background: linear-gradient(45deg, #00ffff, #ff00ff, #ffff00);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            animation: textGlow 3s ease-in-out infinite alternate;
-            margin-bottom: 1rem;
-        }
+---
 
-        .header h3 {
-            font-size: 1.5rem;
-            color: #a0a0a0;
-            animation: fadeIn 2s ease-out 0.5s both;
-        }
+## 💼 **Experience**
 
-        @keyframes slideDown {
-            from { transform: translateY(-50px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100">
+</div>
 
-        @keyframes textGlow {
-            0% { filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.5)); }
-            100% { filter: drop-shadow(0 0 20px rgba(255, 0, 255, 0.8)); }
-        }
+### 🧠 **Backend Developer Intern @ [WhatBytes](https://whatbytes.in)**
+*May 2025 – Present*
 
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
+- 🔧 Developed Django REST APIs for scalable backend services
+- 🗄️ Implemented PostgreSQL integration for data management
+- 📧 Built email services and notification systems
+- ⚡ Worked on real-time data processing solutions
 
-        /* Cards */
-        .card {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 20px;
-            padding: 2rem;
-            margin: 2rem 0;
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-            animation: slideUp 0.8s ease-out;
-            position: relative;
-            overflow: hidden;
-        }
+---
 
-        .card::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: conic-gradient(from 0deg, transparent, rgba(0, 255, 255, 0.1), transparent);
-            animation: rotate 4s linear infinite;
-            z-index: -1;
-        }
+## 🛠️ **Tech Arsenal**
 
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0, 255, 255, 0.2);
-            border-color: rgba(0, 255, 255, 0.3);
-        }
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
+</div>
 
-        @keyframes slideUp {
-            from { transform: translateY(50px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
+### 🔥 **Languages**
+<div align="center">
+  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
-        @keyframes rotate {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
+</div>
 
-        /* Section titles */
-        .section-title {
-            font-size: 2rem;
-            font-weight: 600;
-            margin-bottom: 1.5rem;
-            background: linear-gradient(45deg, #00ffff, #ffffff);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
+### 🎨 **Frontend**
+<div align="center">
+  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-        /* Experience section */
-        .experience {
-            background: linear-gradient(135deg, rgba(0, 255, 255, 0.1), rgba(255, 0, 255, 0.1));
-            animation-delay: 0.2s;
-        }
+</div>
 
-        /* About section */
-        .about {
-            background: linear-gradient(135deg, rgba(255, 0, 255, 0.1), rgba(0, 255, 127, 0.1));
-            animation-delay: 0.4s;
-        }
+### ⚙️ **Backend**
+<div align="center">
+  
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Django REST](https://img.shields.io/badge/Django_REST-ff1709?style=for-the-badge&logo=django&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
 
-        .about-list {
-            list-style: none;
-            padding: 0;
-        }
+</div>
 
-        .about-list li {
-            padding: 0.5rem 0;
-            transition: transform 0.3s ease;
-            cursor: pointer;
-        }
+### 🗃️ **Database & DevOps**
+<div align="center">
+  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-        .about-list li:hover {
-            transform: translateX(10px);
-            color: #00ffff;
-        }
+</div>
 
-        /* Tech stack */
-        .tech-stack {
-            background: linear-gradient(135deg, rgba(0, 255, 127, 0.1), rgba(255, 255, 0, 0.1));
-            animation-delay: 0.6s;
-        }
+---
 
-        .tech-category {
-            margin-bottom: 2rem;
-        }
+## 🌐 **Connect With Me**
 
-        .tech-category h4 {
-            font-size: 1.2rem;
-            color: #00ffff;
-            margin-bottom: 1rem;
-            font-weight: 600;
-        }
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/235294019-40007353-6219-4ec5-b661-b3c35136dd0b.gif" width="100">
+</div>
 
-        .tech-badges {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/virani-vasu-9a0a6224a)
+[![X](https://img.shields.io/badge/X-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/VasuVirani)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vasuvirani55@gmail.com)
 
-        .tech-badge {
-            background: linear-gradient(45deg, #1a1a2e, #16213e);
-            border: 1px solid rgba(0, 255, 255, 0.3);
-            color: #ffffff;
-            padding: 0.5rem 1rem;
-            border-radius: 25px;
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            position: relative;
-            overflow: hidden;
-        }
+</div>
 
-        .tech-badge::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.2), transparent);
-            transition: left 0.5s ease;
-        }
+---
 
-        .tech-badge:hover::before {
-            left: 100%;
-        }
+## 📊 **GitHub Analytics**
 
-        .tech-badge:hover {
-            transform: scale(1.05);
-            box-shadow: 0 5px 15px rgba(0, 255, 255, 0.3);
-            border-color: #00ffff;
-        }
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100">
+</div>
 
-        /* Connect section */
-        .connect {
-            background: linear-gradient(135deg, rgba(255, 255, 0, 0.1), rgba(0, 255, 255, 0.1));
-            animation-delay: 0.8s;
-        }
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=vasu55v&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=vasu55v&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
 
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            margin-top: 1rem;
-        }
+<div align="center">
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vasu55v&theme=tokyonight&hide_border=true&layout=compact&langs_count=10" alt="Top Languages" />
+</div>
 
-        .social-link {
-            display: inline-block;
-            padding: 1rem 2rem;
-            background: linear-gradient(45deg, #0077B5, #00A0DC);
-            color: white;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vasu55v&theme=tokyo-night&hide_border=true" alt="GitHub Activity Graph" />
+</div>
 
-        .social-link.twitter {
-            background: linear-gradient(45deg, #1DA1F2, #0d8bd9);
-        }
+---
 
-        .social-link::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-            transition: left 0.5s ease;
-        }
+## 🏆 **GitHub Trophies**
 
-        .social-link:hover::before {
-            left: 100%;
-        }
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=vasu55v&theme=tokyonight&no-frame=true&column=7" alt="GitHub Trophies" />
+</div>
 
-        .social-link:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-        }
+---
 
-        /* Stats section */
-        .stats {
-            background: linear-gradient(135deg, rgba(255, 0, 255, 0.1), rgba(0, 255, 255, 0.1));
-            animation-delay: 1s;
-            text-align: center;
-        }
+## 🐍 **Snake Game**
 
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
+<div align="center">
+  <img src="https://github.com/vasu55v/vasu55v/blob/output/github-contribution-grid-snake.svg" alt="Snake Game" />
+</div>
 
-        .stat-card {
-            background: rgba(0, 0, 0, 0.3);
-            border: 1px solid rgba(0, 255, 255, 0.2);
-            border-radius: 15px;
-            padding: 1.5rem;
-            transition: all 0.3s ease;
-        }
+---
 
-        .stat-card:hover {
-            transform: scale(1.05);
-            border-color: #00ffff;
-        }
+## 📈 **Contribution Graph**
 
-        .stat-card img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            filter: drop-shadow(0 4px 8px rgba(0, 255, 255, 0.3));
-        }
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=vasu55v&theme=tokyonight&hide_border=true" alt="Wakatime Stats" />
+</div>
 
-        /* Visitor count */
-        .visitor-count {
-            text-align: center;
-            margin-top: 3rem;
-            animation: fadeIn 2s ease-out 1.5s both;
-        }
+---
 
-        .visitor-count img {
-            filter: drop-shadow(0 4px 8px rgba(0, 255, 255, 0.5));
-        }
+## 🔥 **Recent Activity**
 
-        /* Responsive design */
-        @media (max-width: 768px) {
-            .header h1 {
-                font-size: 2.5rem;
-            }
-            
-            .section-title {
-                font-size: 1.5rem;
-            }
-            
-            .social-links {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .tech-badges {
-                justify-content: center;
-            }
-        }
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
 
-        /* Scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
+---
 
-        ::-webkit-scrollbar-track {
-            background: rgba(0, 0, 0, 0.1);
-        }
+## 🎯 **Current Goals**
 
-        ::-webkit-scrollbar-thumb {
-            background: linear-gradient(180deg, #00ffff, #ff00ff);
-            border-radius: 10px;
-        }
+- 🚀 Master FastAPI and microservices architecture
+- 📱 Build a full-stack mobile application
+- 🤖 Explore AI/ML integration in web applications
+- 🌟 Contribute to 10+ open-source projects this year
+- 📝 Write technical blogs and tutorials
 
-        ::-webkit-scrollbar-thumb:hover {
-            background: linear-gradient(180deg, #ff00ff, #00ffff);
-        }
-    </style>
-</head>
-<body>
-    <div class="bg-animation"></div>
-    
-    <div class="container">
-        <div class="header">
-            <h1>Hey 👋, I'm Vasu Virani</h1>
-            <h3>A passionate Full-Stack Python Developer from India</h3>
-        </div>
+---
 
-        <div class="card experience">
-            <h2 class="section-title">💼 Experience</h2>
-            <div>
-                <h3 style="color: #00ffff; margin-bottom: 0.5rem;">🧠 Backend Developer Intern @ WhatBytes</h3>
-                <p style="color: #a0a0a0; font-style: italic; margin-bottom: 1rem;">May 2025 – Present</p>
-                <p>Worked on Django REST APIs, PostgreSQL integration, email services, and real-time data processing.</p>
-            </div>
-        </div>
+## 💡 **Random Dev Quote**
 
-        <div class="card about">
-            <h2 class="section-title">💫 About Me</h2>
-            <ul class="about-list">
-                <li>🔭 I'm currently working on a product price comparison platform for Zepto, Blinkit, and Swiggy.</li>
-                <li>🌱 I'm diving deeper into <strong>Celery, Redis, PostgreSQL, FastAPI</strong>, and <strong>Selenium/Playwright</strong> for automation & scraping.</li>
-                <li>💬 Ask me about <strong>Django, Python, React, JWT, PostgreSQL, REST APIs, Web scraping</strong>, and <strong>deployment</strong>.</li>
-                <li>🤝 Open to collaborate on any open-source or full-stack projects.</li>
-                <li>📫 Reach me: <strong>vasuvirani55@gmail.com</strong></li>
-            </ul>
-        </div>
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+</div>
 
-        <div class="card connect">
-            <h2 class="section-title">🌐 Connect with Me</h2>
-            <div class="social-links">
-                <a href="https://linkedin.com/in/virani-vasu-9a0a6224a" class="social-link" target="_blank">
-                    LinkedIn
-                </a>
-                <a href="https://x.com/VasuVirani" class="social-link twitter" target="_blank">
-                    X (Twitter)
-                </a>
-            </div>
-        </div>
+---
 
-        <div class="card tech-stack">
-            <h2 class="section-title">🧰 Tech Stack</h2>
-            
-            <div class="tech-category">
-                <h4>Languages:</h4>
-                <div class="tech-badges">
-                    <span class="tech-badge">Python</span>
-                    <span class="tech-badge">JavaScript</span>
-                    <span class="tech-badge">TypeScript</span>
-                    <span class="tech-badge">C</span>
-                </div>
-            </div>
+## 🧮 **Visitor Count**
 
-            <div class="tech-category">
-                <h4>Frontend:</h4>
-                <div class="tech-badges">
-                    <span class="tech-badge">React</span>
-                    <span class="tech-badge">Vite</span>
-                    <span class="tech-badge">HTML5</span>
-                    <span class="tech-badge">CSS3</span>
-                    <span class="tech-badge">Bootstrap</span>
-                    <span class="tech-badge">React Hook Form</span>
-                </div>
-            </div>
+<div align="center">
+  <img src="https://visitcount.itsvg.in/api?id=vasu55v&icon=2&color=6" alt="Visitor Count" />
+</div>
 
-            <div class="tech-category">
-                <h4>Backend:</h4>
-                <div class="tech-badges">
-                    <span class="tech-badge">Django</span>
-                    <span class="tech-badge">Django REST</span>
-                    <span class="tech-badge">JWT</span>
-                </div>
-            </div>
+---
 
-            <div class="tech-category">
-                <h4>Database & DevOps:</h4>
-                <div class="tech-badges">
-                    <span class="tech-badge">PostgreSQL</span>
-                    <span class="tech-badge">SQLite</span>
-                    <span class="tech-badge">Git</span>
-                    <span class="tech-badge">GitHub</span>
-                    <span class="tech-badge">Vercel</span>
-                    <span class="tech-badge">Netlify</span>
-                    <span class="tech-badge">GitHub Pages</span>
-                </div>
-            </div>
-        </div>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+</div>
 
-        <div class="card stats">
-            <h2 class="section-title">📊 GitHub Stats</h2>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <img src="https://github-readme-stats.vercel.app/api?username=vasu55v&theme=dark&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-                </div>
-                <div class="stat-card">
-                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=vasu55v&theme=dark&hide_border=false" alt="GitHub Streak" />
-                </div>
-                <div class="stat-card">
-                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vasu55v&theme=dark&hide_border=false&layout=compact&langs_count=10" alt="Top Languages" />
-                </div>
-            </div>
-        </div>
+<div align="center">
+  
+### 🚀 **"Code is like humor. When you have to explain it, it's bad."** 
+*– Cory House*
 
-        <div class="visitor-count">
-            <h2 class="section-title">🧮 Visitor Count</h2>
-            <img src="https://visitcount.itsvg.in/api?id=vasu55v&icon=0&color=0" alt="Visitor Count" />
-        </div>
-    </div>
-</body>
-</html>
+</div>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100">
+</div>
+
+---
+
+<div align="center">
+  <b>⭐ Star some repositories if you find them interesting!</b>
+</div>
