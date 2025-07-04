@@ -29,7 +29,7 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100">
 </div>
 
-### 🧠 **Backend Developer Intern @ [WhatBytes](https://whatbytes.in)**
+### 🧠 **Backend Developer Intern @ [WhatBytes]**
 *May 2025 – Present*
 
 - 🔧 Developed Django REST APIs for scalable backend services
@@ -123,47 +123,6 @@
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vasu55v&theme=tokyo-night&hide_border=true" alt="GitHub Activity Graph" />
 </div>
-
----
-
-## 🏆 **GitHub Trophies**
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=vasu55v&theme=tokyonight&no-frame=true&column=7" alt="GitHub Trophies" />
-</div>
-
----
-
-## 🐍 **Snake Game**
-
-<div align="center">
-  <img src="https://github.com/vasu55v/vasu55v/blob/output/github-contribution-grid-snake.svg" alt="Snake Game" />
-</div>
-
----
-
-## 📈 **Contribution Graph**
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=vasu55v&theme=tokyonight&hide_border=true" alt="Wakatime Stats" />
-</div>
-
----
-
-## 🔥 **Recent Activity**
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
----
-
-## 🎯 **Current Goals**
-
-- 🚀 Master FastAPI and microservices architecture
-- 📱 Build a full-stack mobile application
-- 🤖 Explore AI/ML integration in web applications
-- 🌟 Contribute to 10+ open-source projects this year
-- 📝 Write technical blogs and tutorials
 
 ---
 
