@@ -14,7 +14,7 @@
 
 <img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
 
-- 🔭 **Currently Working On:** Product price comparison platform for Zepto, Blinkit, and Swiggy
+- 🔭 **Currently Working On:** Stealth startup connecting investors, startups, and job seekers
 - 🌱 **Learning:** Celery, Redis, PostgreSQL, FastAPI, Selenium/Playwright
 - 💬 **Ask Me About:** Django, Python, React, JWT, PostgreSQL, REST APIs, Web scraping
 - 🤝 **Open To:** Collaborate on open-source or full-stack projects
@@ -26,11 +26,11 @@
 ## 💼 **Experience**
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4d04-b5bf-4d1c14c0247f.gif" width="100">
 </div>
 
 ### 🧠 **Backend Developer Intern @ [WhatBytes]**
-*May 2025 – Present*
+*May 2025 – August 2025*
 
 - 🔧 Developed Django REST APIs for scalable backend services
 - 🗄️ Implemented PostgreSQL integration for data management
@@ -71,6 +71,7 @@
   
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Django REST](https://img.shields.io/badge/Django_REST-ff1709?style=for-the-badge&logo=django&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
 
 </div>
@@ -79,6 +80,7 @@
 <div align="center">
   
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
@@ -137,7 +139,7 @@
 ## 🧮 **Visitor Count**
 
 <div align="center">
-  <img src="https://visitcount.itsvg.in/api?id=vasu55v&icon=2&color=6" alt="Visitor Count" />
+  <img src="https://profile-counter.glitch.me/vasu55v/count.svg" alt="Visitor Count" />
 </div>
 
 ---
@@ -154,7 +156,7 @@
 </div>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4d04-b5bf-4d1c14c0247f.gif" width="100">
 </div>
 
 ---
